@@ -2,8 +2,19 @@
 
 ## TODO
 - Implement splitting
-- Implement realloc
+- Implement realloc and calloc
 - Write tests
+- Implement explicit free lists
+- Implement best fit and next fit
+
+### Extra Touches
+- Documentation
+- Segregated Free Lists
+- mmap for large allocations
+
+### Fun things to implement
+- Implement metrics for throughput and utilization
+- Heap visualizer
 
 ## Takeaways
 - free never "frees" memory, it stays mapped but becomes marked as reusable
